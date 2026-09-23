@@ -1,0 +1,11 @@
+import random
+
+# Generate 5 random floating-point numbers
+numbers = [random.uniform(0, 10) for _ in range(5)]
+
+minimum = min(numbers)
+maximum = max(numbers)
+
+print("Random numbers:", numbers)
+print("Minimum value:", minimum)
+print("Maximum value:", maximum)
